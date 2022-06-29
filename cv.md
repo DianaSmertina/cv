@@ -14,8 +14,7 @@
 * Codewars:
     - [_Di_](https://www.codewars.com/users/_Di_)
 
-
----
+***
 ### About me
 Hello! I'm starting my journey in frontend development after 2 years as an analyst, because I want to move from a theoretical level to a practical one and develop services that will bring real value to people. I have always been able to quickly learn new things and work effectively in a team. Now my goal is to upgrade my hard skills and become a good specialist using my soft skills acquired in previous jobs.
 
@@ -46,8 +45,7 @@ Hello! I'm starting my journey in frontend development after 2 years as an analy
 * VS Code, WebStorm;
 * English - B1
 
-
----
+***
 ### Education
 * **Saint Petersburg State University *2016 - 2020***
 
