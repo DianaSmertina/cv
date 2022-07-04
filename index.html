@@ -5,8 +5,158 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class = "header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                  <li class="nav-item"><a href="#experience" class="nav-link">Work experience</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class = "main">
+        <div class="container main-container">
+            <section class = "about-section" id = "about">
+                <div class = "photo-wrap" >
+                    <img class = "photo" alt = "My photo" src = "assets/img/DSC_0177_1_square.jpg" >
+                </div>
+                <div class = "about-wrap">
+                    <h1>I'm Diana,
+                        <br/><span class = "developer">Junior Fronted Developer</span>
+                    </h1>
+                    <p> 
+                        Hello! I’m starting my journey in frontend development after 2 years as an analyst, because I want to move from a theoretical level to a practical one and develop services that will bring real value to people. I have always been able to quickly learn new things and work effectively in a team. Now my goal is to upgrade my hard skills and become a good specialist using my soft skills acquired in previous jobs.
+                    </p>   
+                </div> 
+            </section>
+            <section class = "section" id = "experience">
+                <h2 class = "section-title">Work experience</h2>
+                <ul class = "work-main"> 
+                    <li class = "work-place first">
+                        <div>
+                            <h3>PJSC Megafon</h3>
+                            <p>04/2021 - 03/2022</p>
+                            <p class="position">Analyst for Monitoring and Managing Client Applications</p>
+                        </div>
+                        <div>
+                            <ul class = "responsibilities">
+                                <li class = "task">analysis of client applications, identiication of trends, speciics of applications;</li>
+                                <li class = "task">business processes optimization and automation in the company in order to improve customer service;</li>
+                                <li class = "task">interaction with IT and other departments of the company to optimize customer journeys, preparing requirements for finalizing products, services, CRM.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class = "work-place">
+                        <div>
+                            <h3>LLC Infoline Analytics</h3>
+                            <p>07/2020 - 04/2021</p>
+                            <p class="position">Research Projects Analyst</p>
+                        </div>
+                        <div>
+                            <ul class = "responsibilities">
+                                <li class = "task">analysis of the FMCG and Foodtech market, main trends, making forecasts for the development of the industry and companies;</li>
+                                <li class = "task">analysis of macroeconomic indicators;</li>
+                                <li class = "task">work with financial and operational indicators of companies.</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class = "section" id = "skills">
+                <h2 class = "section-title">Skills</h2>
+                <div class = "skills-wrap">
+                    <ul class="skills-main">
+                        <li class="one-skill">HTML5</li>
+                        <li class="one-skill">CSS3</li>
+                        <li class="one-skill">JavaScript</li>
+                        <li class="one-skill">React</li>
+                        <li class="one-skill">VBA</li>
+                        <li class="one-skill">Git, GitHub</li>
+                        <li class="one-skill">VS Code</li>
+                        <li class="one-skill">WebStorm</li>
+                        <li class="one-skill">Jira</li>
+                        <li class="one-skill">English - B1</li>
+                    </ul>
+                </div>
+            </section>
+            <section class = "section" id = "education">
+                <h2 class = "section-title">Education</h2>
+                <div class = "education-main">
+                    <div class = "work-place">
+                        <div class = "university">
+                            <h3>Saint Petersburg State University</h3>
+                            <p>2016 - 2020</p>
+                            <p class="position">Faculty of Sociology, program “Applied Informatics in Sociology”, bachelor.</p>
+                        </div>
+                        <div class="courses">
+                            <ul class = "courses-ul">
+                                <li class = "task"><a href = "https://hyperskill.org/tracks/5?_gl=1%2a1yyo5q8%2a_ga%2aNzMxMjU4MzkxLjE2NTE2MTM3Mjg.%2a_ga_9J976DJZ68%2aMTY1NjQ5NzQ0MC4yLjAuMTY1NjQ5NzQ0MC4w&_ga=2.82059541.2001770790.1656497441-731258391.1651613728">JetBrains Frontend Developer</a></li>
+                                <li class = "task"><a href = "https://www.codecademy.com/learn/react-101">CodeCademy Learn React</a></li>
+                                <li class = "task"><a href = "https://wearecommunity.io/events/js-intro-rss-2022q3">RS Schools JavaScript/Front-end</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class = "section" id = "code">
+                <h2 class = "section-title">Code Example</h2>
+                <div class = "education-main">    
+                    <p class = "solving">Solving the problem <a href = "https://www.codewars.com/kata/596cf5b0e1665a2d02000007">"Merged Objects":</a></p>
+                    <pre class="code" style="font-family:monospace;">
+                        <span style="color: #37abee; font-weight: bold;">function</span> objConcat<span style="color: #009900;">&#40;</span>o<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+                            let result <span style="color: #339933;">=</span> <span style="color: #009900;">&#123;</span><span style="color: #009900;">&#125;</span><span style="color: #339933;">;</span>
+                        <span style="color: #37abee; font-weight: bold;">    for</span> <span style="color: #009900;">&#40;</span>i <span style="color: #339933;">=</span> <span>0</span><span style="color: #339933;">;</span> i <span style="color: #339933;">&lt;</span> o.<span style="color: #ce25dd;">length</span><span style="color: #339933;">;</span> i<span style="color: #339933;">++</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+                        <span>        Object</span>.<span style="color: #ce25dd;">assign</span><span style="color: #009900;">&#40;</span>result<span style="color: #339933;">,</span> o<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                        <span style="color: #009900;">    &#125;</span><span style="color: #339933;">;</span>
+                        <span style="color: #37abee; font-weight: bold;">    return</span> result<span style="color: #339933;">;</span>
+                    <span style="color: #009900;">    &#125;</span></pre>
+                </div>
+            </section>
+            <section class = "section" id = "contacts">
+                <h2 class = "section-title">Contacts</h2>
+                <div class="education-main">
+                    <div class = "help">
+                        <ul class = "contact-list">
+                            <li class = "contact-li" id = "phone">
+                                <div class = "cont">+374 94 099053</div>
+                            </li>
+                            <li class = "contact-li" id = "e-mail">
+                                <div class = "cont">am.dianasmertina@gmail.com</div>
+                            </li>
+                            <li class = "contact-li" id = "telegram">
+                                <div class = "cont">@abrkdbr</div>
+                            </li>
+                            <li class = "contact-li" id = "github">
+                                <div class = "cont"><a href="https://github.com/DianaSmertina">DianaSmertina</a></div>
+                            </li>
+                            <li class = "contact-li" id = "codewars">
+                                <div class = "cont"><a href = "https://www.codewars.com/users/_Di_">Di</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class = "footer">
+        <div class="container">
+            <div class = "git-and-icon">
+                <p>2022 <a href = "https://github.com/DianaSmertina">@DianaSmerina</a></p>
+                <img class = "rss-logo" src="./assets/img/rs_school_js.svg" alt="logo">
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
